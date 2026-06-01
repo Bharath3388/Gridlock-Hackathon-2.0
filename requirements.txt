@@ -1,8 +1,12 @@
-pandas
-numpy
-scikit-learn
-xgboost
-lightgbm
-matplotlib
-seaborn
-jupyter
+# Core ML dependencies (pinned for reproducibility)
+pandas>=2.1.0
+numpy>=1.26.0
+scikit-learn>=1.5.0
+
+# Gradient boosting frameworks
+xgboost>=3.0.0
+lightgbm>=4.0.0
+catboost>=1.2.0
+
+# Geospatial
+pygeohash>=3.0.0

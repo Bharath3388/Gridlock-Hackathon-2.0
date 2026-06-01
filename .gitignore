@@ -1,26 +1,21 @@
-# Data files
-data/*.csv
+# Ignore everything
+*
 
-# Python
-__pycache__/
-*.py[cod]
-*.egg-info/
-.eggs/
-dist/
-build/
+# Except code and dataset
+!.gitignore
+!README.md
+!requirements.txt
+!Makefile
+!run.py
+!config/
+!config/**
+!src/
+!src/**
+!dataset/
+!dataset/**
+!research/
+!research/**
 
-# Jupyter
-.ipynb_checkpoints/
-
-# Environment
-.env
-venv/
-.venv/
-
-# OS
-.DS_Store
-Thumbs.db
-
-# IDE
-.vscode/
-.idea/
+# Still ignore Python artifacts inside allowed dirs
+**/__pycache__/
+**/*.py[cod]
